@@ -10,7 +10,7 @@ int main(int argc, char **argv)
 	printf("length = %d\n", strlen(name)); 
 	name[strlen(name)-1] = '\0'; /* remove the newline at the end */
   
-  printf("hi testbranch\n");
+  printf("cloned repository\n");
   printf("Hello %s!\n", name);
 	return 0;
 }//end of main program
